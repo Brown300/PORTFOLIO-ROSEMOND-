@@ -6,55 +6,61 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Rosemond CARRELUS - Portfolio</title>
   <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
 </head>
 <body>
+
+  <nav class="navbar">
+    <a href="#about">À propos</a>
+    <a href="#projects">Projets</a>
+    <a href="#skills">Compétences</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
   <header class="hero">
     <div class="hero-left">
       <img src="profile.jpg" alt="Photo de Rosemond CARRELUS" class="profile-pic" />
     </div>
     <div class="hero-right">
-      <h1>Rosemond CARRELUS</h1>
+      <h1 class="bleu">Rosemond CARRELUS</h1>
       <p>Infirmier & développeur web en formation</p>
-      <a href="cv_rosemond_carrelus.pdf" class="btn">Télécharger mon CV</a>
+      <a href="cv_rosemond_carrelus.docx" download class="btn">Télécharger mon CV (.docx)</a>
     </div>
   </header>
 
-  <section class="about">
+  <section class="about" id="about">
     <h2>À propos</h2>
-    <p>Je suis infirmier diplômé avec une solide expérience en santé communautaire, assainissement et gestion de projets. Je suis également en formation en développement web avec l’OIF et je poursuis un diplôme en gestion de projet avec Kawa Academy. Je développe une application mobile nommée RC Swivi Sante pour renforcer le suivi de santé en zone rurale.</p>
+    <p>Je suis infirmier diplômé avec une solide expérience en santé publique, assainissement et projets communautaires. Je poursuis des formations en développement web avec l’OIF et en gestion de projets sur Coursera via Kawa Academy. Je développe l'application RC Swivi Sante pour le suivi de santé communautaire.</p>
   </section>
 
-  <section class="projects">
+  <section class="projects" id="projects">
     <h2>Mes projets</h2>
     <div class="project-card">
       <h3>RC Swivi Sante</h3>
       <img src="logo_rc_swivi_sante.png" alt="Logo RC Swivi Sante" class="logo" />
-      <p>Application mobile pour le suivi communautaire de la santé.</p>
+      <p>Application mobile pour le suivi communautaire de la santé en Haïti.</p>
       <a href="logo_rc_swivi_sante.png" class="btn-blue" target="_blank">Voir</a>
     </div>
     <div class="project-card">
       <h3>Projet de latrinisation – Lièvre</h3>
-      <p>Projet d’assainissement réalisé à Petit-Trou de Nippes avec DINEPA/OREPA SUD en 2020.</p>
-      <a href="#" class="btn-blue">Voir</a>
-    </div>
-    <div class="project-card">
-      <h3>Projet Rosemond CARRELUS</h3>
-      <p>Ce site est mon projet personnel de présentation numérique et professionnelle.</p>
+      <p>Projet d’assainissement mené à Petit-Trou de Nippes avec DINEPA/OREPA SUD en 2020.</p>
       <a href="#" class="btn-blue">Voir</a>
     </div>
   </section>
 
-  <section class="skills">
+  <section class="skills" id="skills">
     <h2>Compétences</h2>
-    <div class="skill"><span>HTML / CSS</span><div class="bar"><div class="progress" style="width:40%"></div></div></div>
-    <div class="skill"><span>JavaScript</span><div class="bar"><div class="progress" style="width:30%"></div></div></div>
-    <div class="skill"><span>Cybersécurité</span><div class="bar"><div class="progress" style="width:50%"></div></div></div>
-    <div class="skill"><span>Leadership</span><div class="bar"><div class="progress" style="width:80%"></div></div></div>
-    <div class="skill"><span>Travail en équipe</span><div class="bar"><div class="progress" style="width:85%"></div></div></div>
+    <ul>
+      <li>Soins infirmiers communautaires</li>
+      <li>Sens de l’écoute et empathie</li>
+      <li>Gestion du temps et capacité d’analyse</li>
+      <li>Utilisation des outils numériques et Internet</li>
+      <li>Travail d’équipe et leadership</li>
+      <li>Créativité et adaptabilité</li>
+    </ul>
   </section>
 
-  <section class="contact">
+  <section class="contact" id="contact">
     <h2>Contact</h2>
     <form>
       <input type="text" placeholder="Votre nom" required />
@@ -68,6 +74,7 @@
 
   <footer>
     <p>© 2025 Rosemond CARRELUS — Tous droits réservés.</p>
+    <p>Voir le site en ligne : <a href="https://brown300.github.io/PORTFOLIO-ROSEMOND-/" target="_blank">Cliquez ici</a></p>
   </footer>
 
 </body>
